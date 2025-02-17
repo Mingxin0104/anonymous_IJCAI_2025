@@ -41,7 +41,7 @@ def parse_args():
     parser = argparse.ArgumentParser()
     # 定义命令行参数
     parser.add_argument("--video_path", help="Path to the video files.", default="")
-    parser.add_argument("--video_folder", help="Path to the folder containing video files.", default='/sdb/ccfa/NExTVideo_unpack/')
+    parser.add_argument("--video_folder", help="Path to the folder containing video files.", default='')
     parser.add_argument("--input_csv", help="Path to the input CSV file.", default='')
     parser.add_argument("--output_results", help="Path to the output results JSON file.", default='')
     parser.add_argument("--output_dir", help="Directory to save the model results JSON.", default="")
